@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+/* home_section */
+#aboutus{
+    position: relative;
+}
+#aboutus nav{
+    text-align: center;
+    margin: auto 0;
+    width: 100%;
+}
+#aboutus .container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+#aboutus .container_logo{
+    margin-top: 0;
+}
+#aboutus .carousel{
+    margin: 0;
+    padding: 0;
+}
+#aboutus .navbar{
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    z-index: 555;
+    justify-content: center;
+    width: 100%;
+}
+#aboutus .navbar li{
+    padding: 10px 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.line{
+    width: 2px;
+    height: 20px;
+    background-color: white;
+}
+.navbar img{
+    width: 20px;
+    height: 20px;
+    padding: 0;
+}
+#aboutus .carousel-item{
+    padding: 0;
+    margin: 0;
+}
+#aboutus .carousel-inner{
+    margin: 0;
+    padding: 0;
+}
+#aboutus .carousel-inner img{
+    width: 100%;
+    height: 600px;
+}
+#aboutus span{
+    color: white;
+    font-size: 20px;
+}
+.logo{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin:  0 auto;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 555;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#aboutus .logo img{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border:3px solid white;
+}
+/* paragraph_section */
+#paragraph {
+    background-color:#333;
+    height: auto;
+    padding: 20px;
+}
+.paragraph{
+    font-size: 30px;
+    width: 55%;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 25px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-family: "Playfair Display", serif;
+}
+/* packages_section */
+#packages{
+    background-color: #222;
+    height: auto;
+    padding: 60px;
+}
+#packages .paragraph{
+    font-family: sans-serif;
+    font-size: 23px;
+    width: 70%;
+    padding: 7px;
+}
+#packages .paragraph span{
+   color: rgb(220, 113, 220);
+}
+.para{
+    padding: 30px;
+}
+#packages .row{
+    padding: 0.8em;
+    width: 90%;
+    margin: auto;
+}
+#packages img{
+    height: 280px;
+    border-radius: 0px;
+}
+#packages .card{
+    border: none;
+    margin: 0;
+    padding: 0;
+    border-radius:none;
+    margin: 10px;
+}
+ .card-body{
+    background-color: #444;
+    padding: 10px;
+}
+#packages .card-title{
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    padding: 5px 0;
+}
+#packages .card-text{
+    color: #fff;
+    font-size: 18px;
+}
+a.btn{
+    border:2px solid rgb(220, 113, 220);
+    border-radius: 0px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+a.btn:hover{
+    background-color: rgb(220, 113, 220);
+    color: #fff;
+}
+/* eventplanning_section */
+#eventplanning{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.742),rgba(0, 0, 0, 0.758)), url('https://img.freepik.com/free-photo/decorated-seatings-wedding-guests_8353-10181.jpg?t=st=1720772287~exp=1720775887~hmac=c75fce3092cb10ce7252e92219a507f5b0a451c48cc191c600617d4df48a6f0d&w=700');
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding:3em;
+    position: relative;
+}
+#eventplanning .paragraph{
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 68%;
+}
+#eventplanning .heading{
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    padding: 25px;
+}
+.heading_line{
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+    width: 50px;
+    height: 2px;
+    background-color: rgb(220, 113, 220);
+}
+#eventplanning .row{
+    width: 100%;
+    margin: auto;
+
+}
+.box{
+    padding-bottom: 2em;
+    margin: 0;
+    width: 30%;
+    text-align: center;
+}
+.box .paragraph{
+    font-size: 15px;
+    font-weight: 600;
+    width: 70%;
+}
+.box img{
+    width: 100px;
+    height: 100px;
+   margin: auto;
+   align-content: center;
+   margin: 30px;
+}
+#eventplanning .btn{
+    background-color:transparent;
+    border-radius: 0px;
+    border:2px solid rgb(220, 113, 220);
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+    padding:10px 20px;
+    margin-top: 20px;
+    margin:0 auto;
+    text-align: center;
+    display: block;
+}
+#eventplanning .btn:hover{
+    background-color:rgb(220, 113, 220) ;
+    color: #fff;
+}
+/* customer_section */
+#customer {
+    width: 100%;
+    height:auto;
+    background-color: #222;
+    padding: 3em;
+    position: relative;
+}
+.carousel{
+    padding: 8em 0;
+    margin: 0 3em;
+}
+#customer .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: visible;
+}
+.carousel-inner{
+    overflow: visible;
+}
+.carousel-item{
+    background-color: #444;
+    height:auto;
+    padding:1em 0 1em 0;
+    margin-top: -20px;
+    border: 3em 0 0 0 solid #222;
+}
+#customer .heading_line{
+    width: 80px;
+}
+#customer .heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:15px 0 0 0;
+    margin: 0;
+    font-size: 26px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+#customer .paragraph{
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+    line-height: 2em;
+}
+#customer .paragraph span{
+    color: rgb(220, 113, 220) ;
+}
+#customer .row{
+    margin-top: -79px;
+}
+#customer img{
+    width: 140px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -89px;
+}
+
+#customer .row .quote {
+    font-size: 80px;
+    color: rgb(220, 113, 220);
+    overflow: visible;
+    margin-left: 10px;
+}
+/* insta_section */
+#gallery {
+    height: auto;
+    padding: 2em;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.543),rgba(0, 0, 0, 0.55)), url('https://img.freepik.com/free-photo/violet-light-set-table-with-flowers_8353-10610.jpg?t=st=1720960551~exp=1720964151~hmac=598237f3354944eb6c22145b93cc5a7334083785671ddf5b2a27f1e596da2d3c&w=900');
+}
+#gallery .heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:15px;
+    margin: 0;
+    font-size: 28px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+#gallery .carousel-item{
+    background-color: transparent;
+}
+#gallery img{
+        height: 250px;
+        border: 6px solid white;
+        margin-top: 9px;
+}
+#gallery .insta{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 15px;
+    border: none;
+}
+/* footer_section */
+#footer{
+    background-color: black;
+    color: white;
+    width: auto;
+}
+#footer img{
+    width: 200px;
+    height: 170px;
+
+}
+#footer .footer_content{
+    padding: 3em ;
+    width: 80%;
+    margin: 0 auto;
+}
+#footer .heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #e3e1e1;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    padding-bottom: 1em;
+    text-align:justify;
+}
+#footer .links,.content,.icons,.events{
+    list-style-type: none;
+    padding: 0;
+}
+#footer .links a,.content a,.icons a,.events a{
+    text-decoration: none;
+    color: #e3e1e1;
+    font-size: 13px;
+    line-height: 2em;
+}
+#footer .content li{
+    display: flex;
+}
+#footer .content .icon{
+    color: rgb(220, 113, 220) ;
+    padding-right: 10px;
+}
+#footer .text .content_text{
+    font-size: 13px;
+    width: 100%;
+}
+#footer .text p{
+    font-size: 13px;
+    color: #e3e1e1;
+    width: 100%;
+}
+#footer .icons{
+    display: flex;
+}
+#footer .icons li{
+    background-color:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1.5px solid white;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 11px;
+}
+.line_row{
+    width: 100%;
+    height: 1px;
+    background-color: #444;
+}
+.second_row{
+    padding: 2em 0 0 0;
+    font-size: 13px;
+}
+@media screen and (max-width:480px) {
+    #customer img{
+        width: 140px;
+        height: 120px;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+    #customer .carousel{
+        padding: 5em 0;
+        margin: 0 2em;
+    }
+    #customer .row .quote {
+        font-size: 80px;
+        color: rgb(220, 113, 220);
+        overflow: visible;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+    #customer .heading{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding:15px 0 0 0;
+        margin: 0;
+        font-size: 20px;
+        margin: auto;
+        text-align: center;
+        color: #fff;
+    }
+    #customer .paragraph{
+        font-family: sans-serif;
+        font-size: 15px;
+        width: 80%;
+        padding: 0;
+        margin: 0 auto;
+        line-height: 2em;
+    }
+}
